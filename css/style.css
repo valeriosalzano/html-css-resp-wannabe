@@ -128,7 +128,7 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- @media screen and (min-width: 0px){
+ @media screen and (width){
     .container{
         width: unset;
         max-width: 1140px;
@@ -137,7 +137,7 @@ img {
 
  @media screen and (max-width: 480px){
     .row{
-        flex-wrap: wrap;
+        display: block;
     }
 
     .row .col{
